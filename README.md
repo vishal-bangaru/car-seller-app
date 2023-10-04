@@ -17,3 +17,4 @@ npx json-server --watch data.json --port 4000
 
 then start the react app using the command
 npm start
+
