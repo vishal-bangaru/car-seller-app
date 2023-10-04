@@ -1,0 +1,36 @@
+.pagination{
+  background-color: #EBEEF4;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.pagination ul {
+    display: flex; /* Display the list items in a row */
+    
+    align-items: flex-end;
+    list-style: none; /* Remove the default list bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pagination ul li {
+   background-color: white;
+   border-radius: 10px;
+   width: 30px;
+   text-align: center;
+   color: black;
+   box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+   padding: 2px;
+   margin-right: 10px; /* Adjust the spacing between page numbers as needed */
+  }
+  
+  .pagination ul li:last-child {
+    margin-right: 0; /* Remove margin from the last page number */
+  }
+  
+.link{
+  text-decoration: none;
+}
+  
+  
+  
