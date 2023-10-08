@@ -12,11 +12,10 @@ const CardsList = ({ items, searchQuery}) => {
     item.car.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  // Calculate the start and end indexes for the current page
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
 
-  // Get the items for the current page
+  
   const itemsToShow = filteredItems.slice(startIndex, endIndex);
    
   return (
