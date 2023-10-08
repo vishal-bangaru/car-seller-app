@@ -23,7 +23,7 @@ function App() {
     <Router>
       <div className="App">
 
-        {/* <h1>Pagination with React Router</h1> */}
+      
         <nav>
         
         <div className="search-bar">
@@ -40,12 +40,12 @@ function App() {
       
         </nav>
         {inputFocused ? (
-          // If input is focused, render the search results
+         
           <>
             <CardsList items={data} searchQuery={searchQuery} />
           </>
         ) : (
-          // If input is not focused, render the pagination
+         
           <Routes>
             <Route
               path="/page/:page"
