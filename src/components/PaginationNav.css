@@ -5,10 +5,10 @@
   box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
 }
 .pagination ul {
-    display: flex; /* Display the list items in a row */
+    display: flex; 
     
     align-items: flex-end;
-    list-style: none; /* Remove the default list bullet points */
+    list-style: none; 
     padding: 0;
     margin: 0;
   }
@@ -21,11 +21,10 @@
    color: black;
    box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
    padding: 2px;
-   margin-right: 10px; /* Adjust the spacing between page numbers as needed */
-  }
+   margin-right: 10px; 
   
   .pagination ul li:last-child {
-    margin-right: 0; /* Remove margin from the last page number */
+    margin-right: 0; 
   }
   
 .link{
